@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+
+double square(double x)
+{
+	return (x * x) * x ;
+}
+
+void print_square(double x)
+{
+	cout << "The cubed of " << x << " is " << square(x) << "\n";
+}
+
+int main()
+{
+	double x;
+
+	cout << "Enter a number, the result will be that number squared: ";
+	cin >> x;
+	square(x);
+	print_square(x);
+	
+}
