@@ -1,4 +1,4 @@
-# C-math-squared-program
+# C-plus-plus-math-program
 Squaring / Cubing a number in C++
 
 Simple program to square/cube two numbers in C++ in a command prompt.
